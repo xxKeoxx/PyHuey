@@ -10,6 +10,7 @@ COPY requirements.txt /app
 
 # Set PYTHONPATH to find our Python modules
 ENV PYTHONPATH=/app
+ENV 1PTOKEN=None
 
 # Install any needed dependencies specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
