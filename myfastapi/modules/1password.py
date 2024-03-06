@@ -1,6 +1,6 @@
 import requests
 import os
-from pyhuey_logger import configuration as logger_configuration
+from myfastapi.modules.pyhuey_logger import configuration as logger_configuration
 import logging
 logger_configuration()
 
